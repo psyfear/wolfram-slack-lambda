@@ -5,7 +5,7 @@ provider:
   runtime: nodejs6.10
   region: us-east-1
   timeout: 30
-  memorySize: 128
+  memorySize: 1024
   profile: psyfear
 
 package:
