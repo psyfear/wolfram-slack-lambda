@@ -1,0 +1,26 @@
+{
+  "name": "wolfram-slack-lambda",
+  "version": "0.0.1",
+  "description": "Simple Wolfram Alpha Slack Slash Command Integration",
+  "author": "Jessie Espesor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psyfear/wolfram-slack-lambda.git"
+  },
+  "engines": {
+    "node": "4.3.2"
+  },
+  "scripts": {
+    "start": "node test/run-local.js",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "escape-html": "^1.0.3",
+    "lodash.get": "^4.4.2",
+    "node-fetch": "^1.6.1",
+    "xml2js": "^0.4.17",
+    "query-string": "^5.0.1"
+  }
+}
