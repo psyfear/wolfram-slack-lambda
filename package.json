@@ -13,7 +13,9 @@
   },
   "scripts": {
     "start": "node test/run-local.js",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "axios": "^0.17.0",
@@ -22,6 +24,8 @@
     "lodash.get": "^4.4.2",
     "node-fetch": "^1.6.1",
     "query-string": "^5.0.1",
-    "xml2js": "^0.4.17"
-  }
+    "xml2js": "^0.4.17",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
