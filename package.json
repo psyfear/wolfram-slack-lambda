@@ -16,7 +16,7 @@
     "deploy": "serverless deploy"
   },
   "dependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.19.0",
     "dotenv": "^2.0.0",
     "escape-html": "^1.0.3",
     "lodash.get": "^4.4.2",
